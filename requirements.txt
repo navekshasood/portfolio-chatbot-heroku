@@ -4,5 +4,6 @@ gunicorn==20.1.0
 Jinja2==3.0.3
 nltk==3.7
 numpy==1.22.3
-https://download.pytorch.org/whl/cpu/torch-1.0.0-cp27-none-macosx_10_6_x86_64.whl
+torch
+torchvision
 tqdm==4.63.0
