@@ -89,4 +89,3 @@ class Chatbox {
 
 const chatbox = new Chatbox();
 chatbox.display();
-console.log("Inside app.js")
