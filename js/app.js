@@ -46,7 +46,7 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch('https://navekshasood.herokuapp.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
@@ -88,4 +88,9 @@ class Chatbox {
 
 
 const chatbox = new Chatbox();
+<<<<<<< HEAD
 chatbox.display();
+=======
+chatbox.display();
+console.log("Inside app.js")
+>>>>>>> 94a9e929881e4db6389bcdfff3d56a8fdb0a3c52
